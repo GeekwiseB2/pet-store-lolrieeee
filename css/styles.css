@@ -1,0 +1,100 @@
+@import url(http://fonts.googleapis.com/css?family=Satisfy);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
+
+@media screen and (max-width : 480px) {
+  .mobile-center {
+    text-align: center;
+    padding-top: 10px;s
+  }
+}
+
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h4 {
+  color:#6AC6EA;
+}
+
+.logo {
+      width: 90px;
+}
+
+.navbar-header a {
+    color: #FF827B;
+    font-family: 'Satisfy';
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.navbar-nav li {
+    font-size: 20px;
+    list-style: none;
+}
+
+.navbar .navbar-nav li a {
+    color: #6AC6EA;
+}
+
+.navbar .navbar-nav li a:hover {
+    color: #FF827B;
+}
+
+.navbar {
+  margin:0;
+}
+
+.navbar-default {
+  background:#ffffff;
+  -webkit-border-radius: 0 !important;
+  -moz-border-radius: 0 !important;
+  border-radius: 0 !important;
+  border: 0 !important;
+}
+
+.jumbotron {
+ background-image: url(../img/hero.jpg);
+ background-position: center 45%;
+ background-size: cover;
+ height:425px;
+}
+
+.jumbotron h1 {
+  font-size: 25px;
+  text-align: center;
+  color:#ffffff;
+  text-transform: uppercase;
+}
+
+.footer {
+  background:#3C3B3E;
+  padding: 25px 0;
+}
+
+.footer li {
+  list-style: none;
+}
+
+.footer p {
+  color:#C7C7C7;
+}
+
+.footer .copyright p {
+  color:#000000;
+}
+
+.border-left {
+  border-left:1px solid #877B72;
+}
+
+.thumbnail {
+  background:#E3EBEC;
+}
+
+.products {
+  padding:20px;
+}
+
+#body {
+  padding: 40px 0;
+}
